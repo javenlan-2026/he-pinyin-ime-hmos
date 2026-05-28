@@ -5,24 +5,24 @@
       "value": "小鹤双拼输入法模块"
     },
     {
-      "name": "MainAbility_label",
+      "name": "ModuleDesc",
+      "value": "小鹤双拼输入法模块"
+    },
+    {
+      "name": "EntryAbility_label",
       "value": "小鹤双拼"
     },
     {
-      "name": "MainAbility_desc",
-      "value": "小鹤双拼输入法"
+      "name": "EntryAbility_desc",
+      "value": "小鹤双拼输入法主入口"
     },
     {
       "name": "app_name",
       "value": "小鹤双拼"
     },
     {
-      "name": "entry_MainAbility_label",
-      "value": "小鹤双拼"
-    },
-    {
-      "name": "entry_MainAbility_desc",
-      "value": "小鹤双拼输入法主入口"
+      "name": "InputMethodService_label",
+      "value": "小鹤双拼输入法"
     },
     {
       "name": "InputMethodService_desc",

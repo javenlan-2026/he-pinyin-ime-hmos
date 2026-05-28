@@ -1,14 +1,43 @@
 {
   "module": {
-    "deviceType": [
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:ModuleDesc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
       "phone",
       "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:app_icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
     ],
     "extensionAbilities": [
       {
         "name": "InputMethodService",
         "srcEntry": "./ets/InputMethodExtensionAbility/InputMethodService.ets",
-        "label": "$string:InputMethodService_desc",
+        "label": "$string:InputMethodService_label",
         "description": "$string:InputMethodService_desc",
         "type": "inputMethod",
         "exported": true,
@@ -20,6 +49,10 @@
         ]
       }
     ],
-    "requestPermissions": []
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.CONNECT_IME_ABILITY"
+      }
+    ]
   }
 }
