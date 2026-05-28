@@ -10,7 +10,7 @@ import { window } from '@kit.ArkUI';
 const TAG: string = 'EntryAbility';
 const DOMAIN: number = 0xFF00;
 
-export default class EntryAbility extends Uiability {
+export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(DOMAIN, TAG, 'EntryAbility onCreate');
   }
