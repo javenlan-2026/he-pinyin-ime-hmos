@@ -11,7 +11,7 @@ export const CONSONANT_MAP: Map<string, string> = new Map([
   ['d', 'd'], ['t', 't'], ['n', 'n'], ['l', 'l'],
   ['g', 'g'], ['k', 'k'], ['h', 'h'],
   ['j', 'j'], ['q', 'q'], ['x', 'x'],
-  ['zh', 'v'], ['ch', 'c'], ['sh', 'u'],
+  ['zh', 'v'], ['ch', 'i'], ['sh', 'u'],
   ['r', 'r'], ['z', 'z'], ['c', 'c'], ['s', 's'],
   ['y', 'y'], ['w', 'w']
 ]);
