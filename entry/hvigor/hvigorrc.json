@@ -1,0 +1,10 @@
+{
+  "src": [
+    "entry/src/main/**/*.ets",
+    "entry/src/main/**/*.ts",
+    "entry/src/main/**/*.js"
+  ],
+  "targets": [
+    "default"
+  ]
+}
