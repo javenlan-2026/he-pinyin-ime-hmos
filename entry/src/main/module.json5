@@ -1,0 +1,25 @@
+{
+  "module": {
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "extensionAbilities": [
+      {
+        "name": "InputMethodService",
+        "srcEntry": "./ets/InputMethodExtensionAbility/InputMethodService.ets",
+        "label": "$string:InputMethodService_desc",
+        "description": "$string:InputMethodService_desc",
+        "type": "inputMethod",
+        "exported": true,
+        "metadata": [
+          {
+            "name": "ohos.extension.input_method",
+            "resource": "$profile:input_method_config"
+          }
+        ]
+      }
+    ],
+    "requestPermissions": []
+  }
+}

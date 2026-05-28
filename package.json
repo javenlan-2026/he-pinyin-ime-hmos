@@ -1,0 +1,10 @@
+{
+  "name": "he-pinyin-ime",
+  "version": "1.0.0",
+  "description": "小鹤双拼输入法 for HarmonyOS Next",
+  "main": "",
+  "type": "module",
+  "dependencies": {
+    "@kit.IMEKit": "*"
+  }
+}
